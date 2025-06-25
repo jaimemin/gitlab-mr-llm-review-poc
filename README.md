@@ -36,3 +36,6 @@ app.py 내 환경변수를 확인할 수 있습니다.
 Koyeb 대시보드에서
 **App > Settings > Environment Variables**
 항목에 위 3개의 환경변수를 등록해야 애플리케이션이 정상 동작합니다.
+
+---
+참고: https://github.com/sercancelenk/ai-mr-review
