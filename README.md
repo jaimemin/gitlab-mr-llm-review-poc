@@ -1,7 +1,6 @@
 # GitLab MR LLM PoC
-
-이 프로젝트는 GitLab Merge Request(병합 요청)를 분석하고, OpenAI를 활용하여 시니어 개발자 수준의 리뷰 코멘트를 생성한 뒤, 그 결과를 GitLab MR Discussion에 업로드합니다. 
 ---
+<h4>본 프로젝트는 GitLab Merge Request(병합 요청)를 분석하고, OpenAI를 활용하여 시니어 개발자 수준의 리뷰 코멘트를 생성한 뒤, 그 결과를 GitLab MR Discussion에 업로드합니다.</h4>
 
 ## 설치 방법
 
@@ -24,6 +23,7 @@ PROJECTS = [{
 }]
 ```
 
+app.py 내 환경변수를 확인할 수 있습니다.
 * GITLAB_TOKEN: GitLab Personal Access Token (READ API 권한 포함)
 * OPENAI_API_KEY: OpenAI API 사용을 위한 키
 * GITLAB_PROJECT_ID: 리뷰를 적용할 GitLab 프로젝트의 numeric ID
