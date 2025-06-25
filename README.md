@@ -9,6 +9,11 @@
 pip install -r requirements.txt
 ```
 ---
+## 시퀀스 다이어그램
+
+<img width="703" alt="image" src="https://github.com/user-attachments/assets/1b9215b3-5664-4454-b691-7734bd318a0c" />
+
+---
 ## Koyeb 배포 및 환경변수 설정 안내
 
 PoC 검증을 위해 [Koyeb](https://www.koyeb.com/)에 무료 인스턴스로 배포하여 검증했습니다.
